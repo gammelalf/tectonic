@@ -61,20 +61,14 @@ name = "tectonic"
 crate-type = ["rlib"]
 
 [dependencies]
-atty = "0.2"
 byte-unit = "^4.0"
 cfg-if = "1.0"
 error-chain = "^0.12"
 flate2 = { version = "^1.0.19", default-features = false, features = ["zlib"] }
-fs2 = "^0.4"
 lazy_static = "^1.4"
-libc = "^0.2"
-md-5 = "^0.10"
 open = "^4.0"
 quick-xml = "^0.28"
 serde = { version = "^1.0", features = ["derive"], optional = true }
-sha2 = "^0.10"
-structopt = "0.3"
 tectonic_bridge_core = { path = "crates/bridge_core", version =">=0.4.0,<1"}
 tectonic_bundles = { path = "crates/bundles", version =">=0.3.0,<1", default-features = false }
 tectonic_docmodel = { path = "crates/docmodel", version =">=0.2.0,<1", optional = true }
@@ -93,9 +87,6 @@ termcolor = "^1.1"
 tokio = "^1.0"
 toml = { version = "^0.7", optional = true }
 url = "^2.0"
-watchexec = "^2.3.0"
-watchexec-filterer-globset = "1.2"
-watchexec-signals = "1.0"
 zip = { version = "^0.6", default-features = false, features = ["deflate"] }
 
 [features]

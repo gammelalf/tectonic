@@ -1,4 +1,7 @@
-This fork consists of the `v0.15.0` release plus one commit from upstream's `master`.
+This fork starts at upstream's `v0.15.0` and backports some fixes and strips
+some problematic code:
+- Backported fixed c++ version
+- Stripped bin targets and their vulnerable dependencies
 
 [![Build Status](https://dev.azure.com/tectonic-typesetting/tectonic/_apis/build/status/tectonic-typesetting.tectonic?branchName=master)](https://dev.azure.com/tectonic-typesetting/tectonic/_build/latest?definitionId=11&branchName=master)
 [![](http://meritbadge.herokuapp.com/tectonic)](https://crates.io/crates/tectonic)
