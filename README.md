@@ -1,3 +1,5 @@
+This fork consists of the `v0.15.0` release plus one commit from upstream's `master`.
+
 [![Build Status](https://dev.azure.com/tectonic-typesetting/tectonic/_apis/build/status/tectonic-typesetting.tectonic?branchName=master)](https://dev.azure.com/tectonic-typesetting/tectonic/_build/latest?definitionId=11&branchName=master)
 [![](http://meritbadge.herokuapp.com/tectonic)](https://crates.io/crates/tectonic)
 [![codecov](https://codecov.io/gh/tectonic-typesetting/tectonic/branch/master/graph/badge.svg)](https://codecov.io/gh/tectonic-typesetting/tectonic)
